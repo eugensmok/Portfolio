@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 380px;
+    height: 560px;
+}
+
+.gallery{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.photos{
+    position: relative;
+    height: 600px;
+}
+
+.photos img{
+    position: absolute;
+    opacity: 0;
+    transition: ease-out 1s;
+}
+
+.photos img.visible{
+    opacity: 1;
+
+}
